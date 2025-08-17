@@ -1,0 +1,15 @@
+[project]
+name = "quantum-ai"
+version = "0.1.0"
+requires-python = ">=3.10"
+
+dependencies = [
+  "torch>=2.2",
+  "pennylane[lightning]>=0.37",
+  "numpy>=1.26",
+  "scipy>=1.13",
+  "matplotlib>=3.8",
+]
+
+[tool.setuptools]
+py-modules = []
